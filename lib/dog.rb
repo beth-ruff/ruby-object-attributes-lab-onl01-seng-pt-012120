@@ -15,7 +15,6 @@ class Dog
 end
 
 snoopy = Dog.new
-def snoopy.breed 
-  puts "Beagle"
-end
+snoopy.breed = "Beagle"
+snoopy.breed
 
